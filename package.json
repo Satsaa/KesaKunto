@@ -1,0 +1,30 @@
+{
+  "name": "kesakunto",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@10",
+  "description": "A modern B2B2C platform for Finnish flea markets, connecting flea market operators, sellers, and buyers.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "typecheck": "pnpm -r --if-present run typecheck",
+    "deps:update:git": "pnpm update pollen-ui-core trellis-api-core kysely-is-an-orm type-test-core --recursive",
+    "pollen": "pnpm -F pollen-showcase run start",
+    "pollen:web": "pnpm -F pollen-showcase run web",
+    "pollen:android": "pnpm -F pollen-showcase run android",
+    "pollen:ios": "pnpm -F pollen-showcase run ios",
+    "trellis": "pnpm -F trellis-showcase run start",
+    "trellis:web": "pnpm -F trellis-showcase run web",
+    "trellis:android": "pnpm -F trellis-showcase run android",
+    "trellis:ios": "pnpm -F trellis-showcase run ios"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsx": "^4.21.0",
+    "@typescript/native-preview": "^7.0.0-dev.20260325.1"
+  }
+}

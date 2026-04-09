@@ -1,0 +1,30 @@
+{
+  "name": "pollen",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "dependencies": {
+    "@tamagui/animations-css": "2.0.0-rc.16",
+    "@tamagui/animations-react-native": "2.0.0-rc.16",
+    "pollen-ui-core": "git+https://github.com/Satsaa/pollen-ui-core.git#main",
+    "react": "*",
+    "react-native": "*",
+    "tamagui": "2.0.0-rc.16"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.0",
+    "@types/react-dom": "~19.1.0",
+    "@types/react-native": "~0.73.0",
+    "@typescript/native-preview": "^7.0.0-dev.20260325.1"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18",
+    "react-native": ">=0.72"
+  },
+  "peerDependenciesMeta": {
+    "react-dom": {
+      "optional": true
+    }
+  }
+}

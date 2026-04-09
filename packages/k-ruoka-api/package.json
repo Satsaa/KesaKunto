@@ -1,0 +1,29 @@
+{
+	"name": "k-ruoka-api",
+	"version": "0.0.1",
+	"type": "module",
+	"exports": {
+		"./client": "./src/client.ts",
+		"./fetch-offers": "./src/api/fetch-offers.ts",
+		"./offer-category": "./src/api/offer-category.ts",
+		"./offer-categories": "./src/api/offer-categories.ts",
+		"./product": "./src/api/product.ts",
+		"./product-sets": "./src/api/product-sets.ts",
+		"./search-offers": "./src/api/search-offers.ts",
+		"./stores-search": "./src/api/stores-search.ts",
+		"./user-store": "./src/api/user-store.ts"
+	},
+	"scripts": {
+		"typecheck": "tsgo --noEmit -p tsconfig.json",
+		"test:types": "tsgo --noEmit -p tsconfig.test.json"
+	},
+	"dependencies": {
+		"trellis-api-core": "github:Satsaa/trellis-api-core#main",
+		"zod": "^3.25.76"
+	},
+	"devDependencies": {
+		"@types/node": "^25.2.1",
+		"@typescript/native-preview": "^7.0.0-dev.20260325.1",
+		"type-test-core": "git+https://github.com/Satsaa/type-test-core.git#main"
+	}
+}

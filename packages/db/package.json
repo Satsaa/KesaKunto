@@ -1,0 +1,29 @@
+{
+	"name": "db",
+	"version": "0.0.1",
+	"type": "module",
+	"main": "./src/index.ts",
+	"exports": {
+		".": {
+			"import": "./src/index.ts"
+		}
+	},
+	"scripts": {
+		"db:generate": "kysely-codegen",
+		"db:migrate": "tsx scripts/migrate.ts latest",
+		"db:migrate:down": "tsx scripts/migrate.ts down",
+		"db:migration:new": "tsx scripts/new-migration.ts"
+	},
+	"dependencies": {
+		"kysely": "^0.28.11",
+		"kysely-is-an-orm": "github:Satsaa/kysely-is-an-orm#main",
+		"pg": "^8.18.0"
+	},
+	"devDependencies": {
+		"@types/node": "^25.2.1",
+		"@types/pg": "^8.11.0",
+		"kysely-codegen": "^0.19.0",
+		"tsx": "^4.21.0",
+		"typescript": "^5.9.3"
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "dialect": "postgres",
+  "outFile": "src/generated/Database.ts",
+  "envFile": ".env",
+  "camelCase": false,
+  "numericParser": "number",
+  "dateParser": "timestamp",
+  "typeOnlyImports": true,
+  "excludePattern": "kysely_migration|kysely_migration_lock|geography_columns|geometry_columns|spatial_ref_sys|store_locations|market_dashboard_stats"
+}

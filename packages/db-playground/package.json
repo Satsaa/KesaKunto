@@ -1,0 +1,19 @@
+{
+	"name": "db-playground",
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"playground": "tsx src/playground.ts",
+		"test": "tsx src/test.ts"
+	},
+	"dependencies": {
+		"dotenv": "^16.4.7",
+		"kysely-is-an-orm": "github:Satsaa/kysely-is-an-orm#main",
+		"pg": "^8.12.0"
+	},
+	"devDependencies": {
+		"@types/pg": "^8.11.5",
+		"@typescript/native-preview": "^7.0.0-dev.20260325.1",
+		"tsx": "^4.7.0"
+	}
+}

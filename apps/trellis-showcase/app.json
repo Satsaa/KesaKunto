@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Trellis Showcase",
+    "slug": "trellis-showcase",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "scheme": "trellis-showcase",
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
