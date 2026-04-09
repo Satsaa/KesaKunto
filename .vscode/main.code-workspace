@@ -1,0 +1,29 @@
+{
+  "folders": [
+    {
+      "name": "KesaKunto",
+      "path": ".."
+    },
+    {
+      "name": "auth-core",
+      "path": "../../auth-core"
+    },
+    {
+      "name": "pollen-ui-core",
+      "path": "../../pollen-ui-core"
+    },
+    {
+      "name": "trellis-api-core",
+      "path": "../../trellis-api-core"
+    },
+    {
+      "name": "kysely-is-an-orm",
+      "path": "../../kysely-is-an-orm"
+    },
+    {
+      "name": "type-test-core",
+      "path": "../../type-test-core"
+    }
+  ],
+  "settings": {}
+}
