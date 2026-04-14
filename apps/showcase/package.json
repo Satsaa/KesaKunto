@@ -1,0 +1,26 @@
+{
+  "name": "showcase",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-compiler-runtime": "19.0.0-beta-af1b7da-20250417"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.0",
+    "@types/react-dom": "~19.1.0",
+    "@typescript/native-preview": "^7.0.0-dev.20260325.1",
+    "@vitejs/plugin-react": "^5.0.0",
+    "babel-plugin-react-compiler": "19.0.0-beta-af1b7da-20250417",
+    "typescript": "^5.9.3",
+    "vite": "^7.0.0"
+  }
+}

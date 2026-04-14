@@ -11,14 +11,9 @@
   "scripts": {
     "typecheck": "pnpm -r --if-present run typecheck",
     "deps:update:git": "pnpm update pollen-ui-core trellis-api-core kysely-is-an-orm type-test-core --recursive",
-    "pollen": "pnpm -F pollen-showcase run start",
-    "pollen:web": "pnpm -F pollen-showcase run web",
-    "pollen:android": "pnpm -F pollen-showcase run android",
-    "pollen:ios": "pnpm -F pollen-showcase run ios",
-    "trellis": "pnpm -F trellis-showcase run start",
-    "trellis:web": "pnpm -F trellis-showcase run web",
-    "trellis:android": "pnpm -F trellis-showcase run android",
-    "trellis:ios": "pnpm -F trellis-showcase run ios"
+    "showcase": "pnpm -F showcase run dev",
+    "showcase:build": "pnpm -F showcase run build",
+    "showcase:preview": "pnpm -F showcase run preview"
   },
   "keywords": [],
   "author": "",
