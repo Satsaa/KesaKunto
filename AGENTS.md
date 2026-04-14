@@ -1,5 +1,12 @@
 ## Package Context
 
+## Product Docs
+
+- The canonical KesaKunto feature list lives in `FEATURES.md`.
+- Any new feature, removed feature, or materially changed feature behavior must update `FEATURES.md` in the same change.
+- Do not leave feature documentation stale.
+- Start changes by updating `FEATURES.md` immediately before starting code changes.
+
 Before working with a package or app, read the appropriate docs:
 
 - **Using** a package as a dependency → Read its `USAGE.md`. Follow all patterns, API contracts, and examples strictly. Do NOT read INTERNAL.md nor README.md.

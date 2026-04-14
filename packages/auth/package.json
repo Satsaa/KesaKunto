@@ -1,0 +1,20 @@
+{
+	"name": "auth",
+	"version": "0.0.1",
+	"type": "module",
+	"main": "./src/index.ts",
+	"exports": {
+		".": {
+			"import": "./src/index.ts"
+		}
+	},
+	"scripts": {
+		"typecheck": "tsc --noEmit -p tsconfig.json"
+	},
+	"dependencies": {
+		"auth-core": "github:Satsaa/auth-core#main"
+	},
+	"devDependencies": {
+		"typescript": "^5.9.3"
+	}
+}

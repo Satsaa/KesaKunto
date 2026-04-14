@@ -92,6 +92,16 @@ importers:
         specifier: ^7.0.0-dev.20260325.1
         version: 7.0.0-dev.20260409.1
 
+  packages/auth:
+    dependencies:
+      auth-core:
+        specifier: github:Satsaa/auth-core#main
+        version: https://codeload.github.com/Satsaa/auth-core/tar.gz/240bdc9b8d27cdefeaae3c937d046035c1360c57
+    devDependencies:
+      typescript:
+        specifier: ^5.9.3
+        version: 5.9.3
+
   packages/db:
     dependencies:
       kysely:
@@ -1885,6 +1895,10 @@ packages:
   async-limiter@1.0.1:
     resolution: {integrity: sha512-csOlWGAcRFJaI6m+F2WKdnMKr4HhdhFVBk0H/QbJFMCr+uO2kwohwXQPxw/9OCxp05r5ghVBFSyioixx3gfkNQ==}
 
+  auth-core@https://codeload.github.com/Satsaa/auth-core/tar.gz/240bdc9b8d27cdefeaae3c937d046035c1360c57:
+    resolution: {tarball: https://codeload.github.com/Satsaa/auth-core/tar.gz/240bdc9b8d27cdefeaae3c937d046035c1360c57}
+    version: 0.0.1
+
   babel-jest@29.7.0:
     resolution: {integrity: sha512-BrvGY3xZSwEcCzKvKsCi2GgHqDqsYkOP4/by5xCgIwGXQxIEh+8ew3gmrE1y7XRR6LHZIj6yLYnUi/mm2KXKBg==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
@@ -2644,6 +2658,9 @@ packages:
 
   jimp-compact@0.16.1:
     resolution: {integrity: sha512-dZ6Ra7u1G8c4Letq/B5EzAxj4tLFHL+cGtdpR+PVm4yzPDj+lCk+AbivWt1eOM+ikzkowtyV7qSqX6qr3t71Ww==}
+
+  jose@6.2.2:
+    resolution: {integrity: sha512-d7kPDd34KO/YnzaDOlikGpOurfF0ByC2sEV4cANCtdqLlTfBlw2p14O/5d/zv40gJPbIQxfES3nSx1/oYNyuZQ==}
 
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
@@ -7137,6 +7154,10 @@ snapshots:
 
   async-limiter@1.0.1: {}
 
+  auth-core@https://codeload.github.com/Satsaa/auth-core/tar.gz/240bdc9b8d27cdefeaae3c937d046035c1360c57:
+    dependencies:
+      jose: 6.2.2
+
   babel-jest@29.7.0(@babel/core@7.29.0):
     dependencies:
       '@babel/core': 7.29.0
@@ -7995,6 +8016,8 @@ snapshots:
       supports-color: 8.1.1
 
   jimp-compact@0.16.1: {}
+
+  jose@6.2.2: {}
 
   js-tokens@4.0.0: {}
 
